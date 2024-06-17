@@ -111,10 +111,10 @@ func testPointerString() {
 
 // === functions to pretend to do some work === //
 func computeValue(i int, j int) int {
-	return i * j
+	return i + j
 }
 func computePointer(i *int, j *int) int {
-	return *i * *j
+	return *i + *j
 }
 func computeValueString(str string) int {
 	return len(str)
