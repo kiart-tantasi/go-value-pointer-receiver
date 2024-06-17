@@ -16,5 +16,5 @@ go run nogoroutine/main.go
 
 | manner\receiver | value       | pointer     |
 | --------------- | ----------- | ----------- |
-| goroutine       | 11.804791ms | 12.798125ms |
-| no goroutine    | 43.985708ms | 19.081292ms |
+| goroutine       | 12.798125ms | 19.081292ms |
+| no goroutine    | 43.985708ms | 62.034167ms |
